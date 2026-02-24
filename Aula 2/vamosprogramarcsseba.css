@@ -1,10 +1,15 @@
 body {
-    background-color: #f0f0f0;
+    background-image: url(joinha.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
   }
 p{
     color: black;
     font-size: 20pt;
     text-align: center;
+    background-color: white;
 }
 a{
     color:black
@@ -14,14 +19,5 @@ a:hover{
 }
 .joguinho{
     align-items: center;
-}
-.jogo {            
-    display: flex;              
-    align-items: center;        
-    justify-content: flex-start;
-}
-.jogasso{
-    display: flex;              
-    align-items: center;        
-    justify-content: flex-end;
+    background-color: white;
 }
