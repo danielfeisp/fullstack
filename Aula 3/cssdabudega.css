@@ -1,0 +1,86 @@
+body{
+    background-color:lightgray ;
+}
+.cabeçalho{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color: darkblue;
+}
+.inline{
+    display: inline;
+}
+#TEXTO{
+    font-size: 40pt;
+    color: darkgreen;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightskyblue;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.corvermeia{
+    color: darkred;
+    font-weight: bold;
+}
+.texticulo{
+    color: indigo;
+    font-size: 20pt;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.livros{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+table{
+    border-style: dashed;
+    border-color: red;
+}
+th{
+    color: red;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+.listamuitodaora{
+    padding-left: 50px;
+    text-decoration: none;
+}
+.listamuitodaora a{
+    color: darkred;
+    text-decoration: none;
+}
+.deixacerto{
+    display: block;
+  border: 10px dashed lightgray;
+  padding: 20px;
+  background-color: yellow;
+  background-clip: padding-box; 
+  /* align-items: center; */
+  text-align: left;
+  margin-left: 650px;
+  margin-right: 650px;
+}
+.block{
+    display: block;
+}
+.final{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+}
+#finalmente{
+    font-size: 15pt;
+    font-family: Impact;
+}
